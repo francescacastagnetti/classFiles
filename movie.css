@@ -1,0 +1,104 @@
+body{
+    background-image:url(TMNTimages/moviebg.png);
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    position:absolute;
+    top: 10px;
+    left: 105px;
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    height: 83px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#banner {
+    width: 100%;
+    background-image: url(TMNTimages/rancidbannerbg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#bannerimg {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#maingheading{
+    text-align: center;
+    font-size: 24pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px #999999;
+
+}
+
+#mainbody {
+    width: 800px;
+    border-radius: 20px 20px 20px 20px; /* <----- use this to round all corners in div */
+    margin: auto;
+    box-shadow: 5px 5px 5px gray;
+    position: relative;
+
+
+    
+}
+
+#rottenrating{
+    position:absolute;
+    top:0;
+    left:0;
+    background-image: url(TMNTimages/rottenlargebg.png);
+    width: 550px;
+    height: 83px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+#cols {
+    background-color: #EEEEEE;
+    width: 550px;
+    column-count: 2;
+    column-gap: 2%;
+    column-width: 47%;
+    margin: 2%;
+}
+
+/* 
+#leftcol {
+    float: left;
+    width: 258.5px;
+    margin-left: 2%;     
+}
+
+#rightcol {
+    float: right;
+    width: 258.5px;
+    margin-left: 2%;
+} */
+
+.roundborders {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.qreviews {
+    border-radius: 20px 20px 20px 20px;    
+    background-color: #FFFFFF;
+    padding: 8px;
+    border: 2px solid #CCCCCC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    overflow: auto;
+
+    
+}
+
+.wraptext {
+    float: left;
+    margin: 5px;
+}
